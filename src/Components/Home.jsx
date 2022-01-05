@@ -49,8 +49,10 @@ function Home() {
             margin: "1rem"
           }}
         >
-          <h3>Name:{item.name}</h3>
-          <h5>Full Name: {item.full_name}</h5>
+          <h3 style={{ color: "blue" }}>Name:{item.name}</h3>
+          <h5 style={{ border: "dotted 0.1px", padding: "0.2px" }}>
+            Full Name: {item.full_name}
+          </h5>
           <p>{item.description}</p>
           <b>Language: {item.language}</b>
           <i>Score: {item.score}</i>
